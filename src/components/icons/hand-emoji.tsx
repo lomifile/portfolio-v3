@@ -114,8 +114,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="34.9103"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.00132565" stop-color="#FFCB4B" />
-        <stop offset="1" stop-color="#FFD748" />
+        <stop offset="0.00132565" stopColor="#FFCB4B" />
+        <stop offset="1" stopColor="#FFD748" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_21_3965"
@@ -125,8 +125,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="26.3297"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.00132565" stop-color="#FFCB4B" />
-        <stop offset="1" stop-color="#FFD748" />
+        <stop offset="0.00132565" stopColor="#FFCB4B" />
+        <stop offset="1" stopColor="#FFD748" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_21_3965"
@@ -136,8 +136,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="34.708"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.00132565" stop-color="#FFCB4B" />
-        <stop offset="1" stop-color="#FFD748" />
+        <stop offset="0.00132565" stopColor="#FFCB4B" />
+        <stop offset="1" stopColor="#FFD748" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_21_3965"
@@ -147,8 +147,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="29.6734"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.00132565" stop-color="#FFCB4B" />
-        <stop offset="1" stop-color="#FFD748" />
+        <stop offset="0.00132565" stopColor="#FFCB4B" />
+        <stop offset="1" stopColor="#FFD748" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_21_3965"
@@ -158,8 +158,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="28.4905"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFA754" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFA754" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_21_3965"
@@ -169,8 +169,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="23.1346"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.00132565" stop-color="#FFCB4B" />
-        <stop offset="1" stop-color="#FFD748" />
+        <stop offset="0.00132565" stopColor="#FFCB4B" />
+        <stop offset="1" stopColor="#FFD748" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_21_3965"
@@ -180,8 +180,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="26.292"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.00132565" stop-color="#FFCB4B" />
-        <stop offset="1" stop-color="#FFD748" />
+        <stop offset="0.00132565" stopColor="#FFCB4B" />
+        <stop offset="1" stopColor="#FFD748" />
       </linearGradient>
       <linearGradient
         id="paint7_linear_21_3965"
@@ -191,8 +191,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="21.2305"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFA754" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFA754" />
       </linearGradient>
       <linearGradient
         id="paint8_linear_21_3965"
@@ -202,8 +202,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="25.0892"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFA754" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFA754" />
       </linearGradient>
       <linearGradient
         id="paint9_linear_21_3965"
@@ -213,8 +213,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="32.3401"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFA754" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFA754" />
       </linearGradient>
       <radialGradient
         id="paint10_radial_21_3965"
@@ -224,8 +224,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(37.1958 18.6927) scale(8.54256)"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFA754" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFA754" />
       </radialGradient>
       <linearGradient
         id="paint11_linear_21_3965"
@@ -235,8 +235,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="19.7381"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.3118" stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FF8900" />
+        <stop offset="0.3118" stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FF8900" />
       </linearGradient>
       <linearGradient
         id="paint12_linear_21_3965"
@@ -246,8 +246,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="23.1087"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.3118" stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FF8900" />
+        <stop offset="0.3118" stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FF8900" />
       </linearGradient>
       <linearGradient
         id="paint13_linear_21_3965"
@@ -257,8 +257,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="29.5743"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.3118" stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FF8900" />
+        <stop offset="0.3118" stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FF8900" />
       </linearGradient>
       <linearGradient
         id="paint14_linear_21_3965"
@@ -268,8 +268,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="34.7151"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFBC47" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFBC47" />
       </linearGradient>
       <linearGradient
         id="paint15_linear_21_3965"
@@ -279,8 +279,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="29.4226"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFBC47" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFBC47" />
       </linearGradient>
       <linearGradient
         id="paint16_linear_21_3965"
@@ -290,8 +290,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="18.8107"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFA754" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFA754" />
       </linearGradient>
       <linearGradient
         id="paint17_linear_21_3965"
@@ -301,8 +301,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="14.1057"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FFBC47" />
+        <stop stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FFBC47" />
       </linearGradient>
       <linearGradient
         id="paint18_linear_21_3965"
@@ -312,8 +312,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         y2="40.2939"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.3118" stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FF8900" />
+        <stop offset="0.3118" stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FF8900" />
       </linearGradient>
       <radialGradient
         id="paint19_radial_21_3965"
@@ -323,8 +323,8 @@ export const HandEmoji = (props: SVGAttributes<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(27.6727 25.7899) rotate(48.1401) scale(24.7611 22.4753)"
       >
-        <stop offset="0.6134" stop-color="#FFBC47" stop-opacity="0" />
-        <stop offset="1" stop-color="#FF8900" />
+        <stop offset="0.6134" stopColor="#FFBC47" stopOpacity="0" />
+        <stop offset="1" stopColor="#FF8900" />
       </radialGradient>
     </defs>
   </svg>

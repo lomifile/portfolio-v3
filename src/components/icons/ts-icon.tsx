@@ -9,7 +9,7 @@ export const TsIcon = (props: SVGAttributes<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g clip-path="url(#clip0_73_1366)">
+    <g clipPath="url(#clip0_73_1366)">
       <path
         d="M42.5 0H7.5C3.35786 0 0 3.35786 0 7.5V42.5C0 46.6421 3.35786 50 7.5 50H42.5C46.6421 50 50 46.6421 50 42.5V7.5C50 3.35786 46.6421 0 42.5 0Z"
         fill="#3178C6"

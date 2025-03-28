@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { CardDisplay } from "./components/card-display/card-display";
 import { Layout } from "./components/layout/layout";
 import { useScroll } from "./components/providers/scroll-provider";

@@ -10,14 +10,14 @@ export const PythonIcon = (props: SVGAttributes<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M20.3381 3.125C16.9052 3.125 14.1223 5.81958 14.1223 9.14352V13.3102H24.8805V14.4676H9.34084C5.90792 14.4676 3.125 17.1622 3.125 20.4861V29.5139C3.125 32.8378 5.90792 35.5323 9.34084 35.5323H12.9269V30.4398C12.9269 27.1159 15.7098 24.4213 19.1428 24.4213H30.6181C33.523 24.4213 35.8777 22.1413 35.8777 19.3288V9.14352C35.8777 5.81958 33.0948 3.125 29.6619 3.125H20.3381ZM18.9037 10.5324C20.092 10.5324 21.0553 9.59966 21.0553 8.44908C21.0553 7.29848 20.092 6.36573 18.9037 6.36573C17.7153 6.36573 16.752 7.29848 16.752 8.44908C16.752 9.59966 17.7153 10.5324 18.9037 10.5324Z"
       fill="url(#paint0_linear_73_1170)"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M29.6616 46.875C33.0946 46.875 35.8776 44.1805 35.8776 40.8566V36.6899H25.1193V35.5325H40.659C44.0919 35.5325 46.8747 32.8378 46.8747 29.5139V20.4861C46.8747 17.1622 44.0919 14.4677 40.659 14.4677H37.0729V19.5602C37.0729 22.8842 34.2899 25.5788 30.8571 25.5788H19.3816C16.4768 25.5788 14.1221 27.8588 14.1221 30.6713V40.8566C14.1221 44.1805 16.9051 46.875 20.3379 46.875H29.6616ZM31.0961 39.4677C29.9077 39.4677 28.9444 40.4003 28.9444 41.551C28.9444 42.7016 29.9077 43.6342 31.0961 43.6342C32.2844 43.6342 33.2477 42.7016 33.2477 41.551C33.2477 40.4003 32.2844 39.4677 31.0961 39.4677Z"
       fill="url(#paint1_linear_73_1170)"
     />
@@ -30,8 +30,8 @@ export const PythonIcon = (props: SVGAttributes<SVGSVGElement>) => (
         y2="35.5323"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#327EBD" />
-        <stop offset="1" stop-color="#1565A7" />
+        <stop stopColor="#327EBD" />
+        <stop offset="1" stopColor="#1565A7" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_73_1170"
@@ -41,8 +41,8 @@ export const PythonIcon = (props: SVGAttributes<SVGSVGElement>) => (
         y2="46.875"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFDA4B" />
-        <stop offset="1" stop-color="#F9C600" />
+        <stop stopColor="#FFDA4B" />
+        <stop offset="1" stopColor="#F9C600" />
       </linearGradient>
     </defs>
   </svg>
