@@ -1,13 +1,19 @@
+import clsx from "clsx";
 import { motion } from "framer-motion";
+import { Button } from "../button/button";
 import { EmailIcon } from "../icons/email-icon";
 import { GithubIcon } from "../icons/github-icon";
-import { LinkedinIcon } from "../icons/linkedin-icon";
-import { Button } from "../button/button";
 import { HireMeIcon } from "../icons/hire-me-icon";
+import { LinkedinIcon } from "../icons/linkedin-icon";
 import { useScroll } from "../providers/scroll-provider";
-import { clsx } from "clsx";
+import { Dispatch, SetStateAction } from "react";
 
-export function SideBar() {
+export interface MobileMenuProps {
+  isOpen: boolean;
+  setOpen: Dispatch<SetStateAction<boolean>>;
+}
+
+export const MobileMenu = ({ setOpen }: MobileMenuProps) => {
   const sections = [
     { id: "home", title: "Home" },
     { id: "about", title: "About me" },
@@ -16,20 +22,21 @@ export function SideBar() {
   ];
 
   const { activeSection, scrollToSection } = useScroll();
+
   return (
-    <aside className="hidden sticky flex-col h-screen w-sm bg-primary white lg:flex">
-      <div className="flex w-full flex-col p-8 items-center gap-10 text-white">
+    <>
+      <div className="flex w-full flex-col p-6 items-center gap-3 text-white">
         <img
-          className="w-52 h-52"
+          className="w-36 h-36"
           src="/images/face.png"
           alt="filip-ivanusec"
         />
-        <span className="lg:text-lg text-2xl font-semibold">
+        <span className="lg:text-2xl text-md font-extrabold">
           Filip Ivanušec
         </span>
       </div>
-      <div className="flex p-4 flex-col gap-10 justify-center items-center">
-        <span className="text-2xl text-center text-white">
+      <div className="flex px-2 flex-col gap-3 justify-center items-center">
+        <span className="text-md text-center text-white">
           I am software developer based in croatia
         </span>
         <div className="flex flex-row p-2 gap-5 w-full justify-center items-center">
@@ -62,7 +69,10 @@ export function SideBar() {
                   "flex flex-row text-white px-5 w-full hover:cursor-pointer py-2 shrink-0",
                   activeSection === id && "text-white font-bold",
                 )}
-                onClick={() => scrollToSection(id)}
+                onClick={() => {
+                  setOpen(false);
+                  scrollToSection(id);
+                }}
               >
                 {title}
               </div>
@@ -74,6 +84,6 @@ export function SideBar() {
           Hire me
         </Button>
       </div>
-    </aside>
+    </>
   );
-}
+};

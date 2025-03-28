@@ -17,7 +17,7 @@ export function Projects() {
           Projects
         </Typography>
       </div>
-      <div className="p-10 w-full grid grid-cols-2 gap-10">
+      <div className="lg:p-10 w-full flex flex-col p-5 lg:grid lg:grid-cols-2 gap-10">
         <ProjectCard
           title="Sync me"
           badge={<SuccessBadge />}
