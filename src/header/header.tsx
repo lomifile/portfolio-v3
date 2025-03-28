@@ -10,14 +10,14 @@ export function Header() {
   return (
     <header className="flex flex-row gap-20 justify-between w-full lg:px-8">
       <div className="flex flex-col gap-12 w-full">
-        <div className="hidden lg:flex-row gap-5 justify-between items-center lg:flex">
+        <div className="hidden lg:flex-row gap-7 items-center lg:flex">
           <Typography
             as="h1"
-            className="text-2xl lg:5xl font-extrabold text-white lg:text-dark-bg"
+            className="text-2xl lg:text-4xl xl:text-5xl font-extrabold text-white lg:text-dark-bg"
           >
             Filip Ivanušec
           </Typography>
-          <HandEmoji />
+          <HandEmoji style={{ scale: "1.5" }} />
         </div>
         <div
           className={clsx(
@@ -64,7 +64,7 @@ export function Header() {
         </div>
         <Typography
           as="h1"
-          className="text-2xl lg:text-4xl font-medium text-white lg:text-dark-bg"
+          className="text-2xl lg:text-2xl xl:text-4xl font-medium text-white lg:text-dark-bg"
         >
           Software developer
         </Typography>

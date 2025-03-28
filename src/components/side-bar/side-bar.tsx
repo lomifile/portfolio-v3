@@ -24,9 +24,7 @@ export function SideBar() {
           src="/images/face.png"
           alt="filip-ivanusec"
         />
-        <span className="lg:text-lg text-2xl font-semibold">
-          Filip Ivanušec
-        </span>
+        <span className="text-2xl font-semibold">Filip Ivanušec</span>
       </div>
       <div className="flex p-4 flex-col gap-10 justify-center items-center">
         <span className="text-2xl text-center text-white">

@@ -14,13 +14,13 @@ export function App() {
       <div
         id="home"
         ref={(el) => (sectionRefs.current["home"] = el as any)}
-        className="min-h-screen w-full h-screen p-5 flex flex-col gap-10 lg:p-10 bg-no-repeat bg-cover bg-center bg-primary lg:bg-transparent"
+        className="min-h-screen w-full h-screen p-5 flex flex-col gap-10 lg:p-8 bg-primary lg:bg-transparent"
       >
         <Header />
-        <div className="w-full">
+        <div className="w-full lg:px-10 lg:py-8">
           <Typography
             as="h1"
-            className="border-l-4  border-white lg:border-primary text-3xl font-bold px-10 text-white lg:text-dark-bg"
+            className="border-l-4 border-white lg:border-primary text-3xl font-bold px-10 text-white lg:text-dark-bg"
           >
             What I do?
           </Typography>
