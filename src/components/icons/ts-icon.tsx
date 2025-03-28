@@ -1,10 +1,13 @@
-export const TsIcon = () => (
+import { SVGAttributes } from "react";
+
+export const TsIcon = (props: SVGAttributes<SVGSVGElement>) => (
   <svg
     width="50"
     height="50"
     viewBox="0 0 50 50"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <g clip-path="url(#clip0_73_1366)">
       <path

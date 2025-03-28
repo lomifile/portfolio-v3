@@ -14,6 +14,7 @@ export function SideBar() {
     { id: "projects", title: "Projects" },
     { id: "resume", title: "Resume" },
   ];
+
   const { activeSection, scrollToSection } = useScroll();
   return (
     <aside className="flex sticky flex-col h-screen w-sm bg-primary white">
@@ -56,7 +57,7 @@ export function SideBar() {
               {/* Section Links */}
               <div
                 className={clsx(
-                  "flex flex-row text-white px-5 w-full hover:cursor-pointer py-2",
+                  "flex flex-row text-white px-5 w-full hover:cursor-pointer py-2 shrink-0",
                   activeSection === id && "text-white font-bold",
                 )}
                 onClick={() => scrollToSection(id)}

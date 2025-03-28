@@ -27,4 +27,10 @@ body {
   --color-primary: #3b9e80;
   --color-secondary: #404969;
   --color-dark-bg: #222738;
+  --color-danger: #f16063;
+  --color-danger-bg: #ffe6e4;
+  --color-info: #4c6fff;
+  --color-info-bg: #e1e8ff;
+  --color-success-bg: #deffee;
+  --color-success: #66cb9f;
 }
