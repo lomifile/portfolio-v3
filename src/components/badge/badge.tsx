@@ -9,7 +9,7 @@ export const SuccessBadge = () => {
 export const InfoBadge = () => {
   return (
     <div className="w-fit h-fit px-2.5 text-center bg-info-bg text-[0.75em] text-info rounded-full flex items-center">
-      Done
+      In progress
     </div>
   );
 };
@@ -17,7 +17,7 @@ export const InfoBadge = () => {
 export const DangerBadge = () => {
   return (
     <div className="w-fit h-fit px-2.5 align-middle bg-danger-bg text-[0.75em] text-danger rounded-full flex items-center">
-      Done
+      Finished
     </div>
   );
 };
