@@ -21,7 +21,7 @@ export function SideBar() {
       <div className="flex w-full flex-col p-8 items-center gap-10 text-white">
         <img
           className="w-52 h-52"
-          src="/images/face.png"
+          src="/images/face-image.png"
           alt="filip-ivanusec"
         />
         <span className="text-2xl font-semibold">Filip Ivanušec</span>
