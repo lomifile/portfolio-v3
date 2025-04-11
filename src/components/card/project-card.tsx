@@ -15,13 +15,16 @@ export const ProjectCard = ({
   description,
 }: ProjectCardProps) => {
   return (
-    <div className="flex flex-row w-full p-5 lg:p-5 md:p-10 h-40 items-center border-2 border-primary rounded-xl gap-5">
-      <figure className="hidden w-28 h-28 lg:flex">{icon}</figure>
+    <div className="flex flex-row w-full p-5 lg:p-5 2xl:p-5 md:p-10 h-40 items-center border-2 border-primary rounded-xl gap-5">
+      <figure className="hidden w-28 h-28 xl:flex">{icon}</figure>
       <article className="flex flex-col gap-2 w-full h-full">
         <Typography as="h1" className="text-xl font-extrabold">
           {title}
         </Typography>
-        <Typography as="p" className="text-sm xl:text-lg font-medium">
+        <Typography
+          as="p"
+          className="text-sm md:text-sm lg:text-sm xl:text-md 2xl:text-lg font-medium"
+        >
           {description}
         </Typography>
         {badge}

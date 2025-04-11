@@ -70,7 +70,7 @@ export function Header() {
         </Typography>
         <Typography
           as="span"
-          className="text-lg xl:text-4xl font-medium max-w-3xl text-white lg:text-xl lg:text-dark-bg"
+          className="text-lg xl:text-2xl font-medium max-w-3xl text-white lg:text-lg lg:text-dark-bg"
         >
           I am software developer, focusing on building scalable web apps. Want
           to talk how I can help you take your project to the moon? Check out my
