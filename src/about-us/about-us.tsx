@@ -29,7 +29,7 @@ export function AboutUs() {
         </h1>
         <div className="flex lg:flex justify-center w-full p-10">
           <img
-            className="rounded-3xl lg:rounded-[100px] w-full h-full"
+            className="rounded-3xl lg:rounded-[100px] w-full lg:w-full h-full lg:h-[50%]"
             src="/images/image-1.jpg"
             alt="filip-ivanusec"
           />

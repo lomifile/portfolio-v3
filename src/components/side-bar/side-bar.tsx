@@ -67,7 +67,11 @@ export function SideBar() {
             </div>
           ))}
         </div>
-        <Button>
+        <Button
+          onClick={() => {
+            window.location.href = "mailto:fivanusec@gmail.com";
+          }}
+        >
           <HireMeIcon />
           Hire me
         </Button>

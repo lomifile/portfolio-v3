@@ -28,7 +28,7 @@ export function App() {
         <div className="max-w-4xl">
           <Typography className="lg:p-10 text-sm lg:text-xl text-white lg:text-dark-bg">
             I have bachelors degree in telematics and working as software
-            engineer for 3 year. Below you can find quick overview of
+            engineer for 3 years. Below you can find quick overview of
             technologies I use to create my projects. Want to know more about my
             experience and expertise? Check out my portfolio and resume.
           </Typography>

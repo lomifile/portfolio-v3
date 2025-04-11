@@ -49,7 +49,13 @@ export function Projects() {
         <Typography as="h1" className="lg:text-4xl text-center text-extrabold">
           Want to see your project here?
         </Typography>
-        <Button className="w-xs" fill="primary">
+        <Button
+          onClick={() => {
+            window.location.href = "mailto:fivanusec@gmail.com";
+          }}
+          className="w-xs"
+          fill="primary"
+        >
           <HireMeIcon />
           Hire me
         </Button>
