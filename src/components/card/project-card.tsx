@@ -15,7 +15,7 @@ export const ProjectCard = ({
   description,
 }: ProjectCardProps) => {
   return (
-    <div className="flex flex-row w-full p-2 lg:p-5 md:p-10 h-40 items-center border-2 border-primary rounded-xl gap-5">
+    <div className="flex flex-row w-full p-5 lg:p-5 md:p-10 h-40 items-center border-2 border-primary rounded-xl gap-5">
       <figure className="hidden w-28 h-28 lg:flex">{icon}</figure>
       <article className="flex flex-col gap-2 w-full h-full">
         <Typography as="h1" className="text-xl font-extrabold">

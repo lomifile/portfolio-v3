@@ -8,9 +8,9 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex flex-row gap-20 justify-between w-full lg:px-8">
+    <header className="flex flex-row md:gap-8 xl:gap-20 justify-between w-full lg:px-2 xl:px-8">
       <div className="flex flex-col gap-12 w-full">
-        <div className="hidden lg:flex-row gap-7 items-center lg:flex">
+        <div className="hidden lg:flex-row gap-7 items-center lg:py-10 lg:flex">
           <Typography
             as="h1"
             className="text-2xl lg:text-4xl xl:text-5xl font-extrabold text-white lg:text-dark-bg"
@@ -21,8 +21,8 @@ export function Header() {
         </div>
         <div
           className={clsx(
-            "fixed h-screen w-full -left-[400px] md:-left-[800px] top-20 z-30 bg-primary transition-all duration-500 lg:hidden",
-            isOpen && "left-0",
+            "fixed h-screen w-[98%] -left-[800px] md:-left-[1000px] lg:-left-[900px] top-20 z-30 bg-primary transition-all duration-500 lg:hidden",
+            isOpen && "left-0 md:left-0",
           )}
         >
           <MobileMenu isOpen={isOpen} setOpen={setIsOpen} />
@@ -70,16 +70,16 @@ export function Header() {
         </Typography>
         <Typography
           as="span"
-          className="text-lg lg:text-2xl font-medium max-w-3xl text-white lg:text-dark-bg"
+          className="text-lg xl:text-4xl font-medium max-w-3xl text-white lg:text-xl lg:text-dark-bg"
         >
           I am software developer, focusing on building scalable web apps. Want
           to talk how I can help you take your project to the moon? Check out my
           portfolio and resume.
         </Typography>
       </div>
-      <div className="hidden lg:flex w-full justify-center">
+      <div className="hidden lg:flex  justify-center w-full">
         <img
-          className="rounded-[100px] w-xl h-xl"
+          className="rounded-[100px] lg:w-full h-xl xl:w-xl"
           src="/images/my-image.jpeg"
           alt="filip-ivanusec"
         />

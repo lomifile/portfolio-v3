@@ -13,7 +13,7 @@ import { TsIcon } from "../icons/ts-icon";
 
 export function CardDisplay() {
   return (
-    <div className="hidden lg:grid lg:grid-cols-2 gap-5 xl:grid-flow-col w-full p-8">
+    <div className="hidden lg:grid lg:grid-cols-2 gap-5 xl:grid-cols-4 w-full p-8">
       <Card
         icons={[<HtmlIcon />, <CssIcon />, <JsIcon />]}
         text="As any web developer I use HTML, CSS and Javascript as backbone to any project."
