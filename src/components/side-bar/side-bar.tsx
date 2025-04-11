@@ -20,7 +20,7 @@ export function SideBar() {
     <aside className="hidden sticky flex-col h-screen w-sm bg-primary white lg:flex">
       <div className="flex w-full flex-col p-8 items-center gap-10 text-white">
         <img
-          className="w-52 h-52"
+          className="w-52 h-52 object-cover"
           src="/images/face-image.png"
           alt="filip-ivanusec"
         />

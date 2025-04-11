@@ -21,7 +21,7 @@ export function Header() {
         </div>
         <div
           className={clsx(
-            "fixed h-screen w-full -left-[400px] top-20 z-30 bg-primary transition-all duration-500 lg:hidden",
+            "fixed h-screen w-full -left-[400px] md:-left-[800px] top-20 z-30 bg-primary transition-all duration-500 lg:hidden",
             isOpen && "left-0",
           )}
         >

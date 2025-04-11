@@ -17,7 +17,7 @@ export const MobileMenu = ({ setOpen }: MobileMenuProps) => {
     { id: "home", title: "Home" },
     { id: "about", title: "About me" },
     { id: "projects", title: "Projects" },
-    { id: "resume", title: "Resume" },
+    // { id: "resume", title: "Resume" },
   ];
 
   const { activeSection, scrollToSection } = useScroll();
@@ -27,7 +27,7 @@ export const MobileMenu = ({ setOpen }: MobileMenuProps) => {
       <div className="flex lg:hidden w-full flex-col p-6 items-center gap-3 text-white">
         <img
           className="w-36 h-36"
-          src="/images/face.png"
+          src="/images/face-image.png"
           alt="filip-ivanusec"
         />
         <span className="lg:text-2xl text-md font-extrabold">
