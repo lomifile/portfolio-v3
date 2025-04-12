@@ -5,7 +5,7 @@ import { Typography } from "./components/typograhpy/typography";
 import { Header } from "./header/header";
 import { AboutUs } from "./about-us/about-us";
 import { Projects } from "./projects/projects";
-import { Resume } from "./resume/resume";
+import { PdfReader } from "./components/pdf/pdf-reader";
 
 export function App() {
   let { sectionRefs } = useScroll();
@@ -40,17 +40,22 @@ export function App() {
       <div
         id="projects"
         ref={(el) => (sectionRefs.current["projects"] = el as any)}
-        className="w-full p-10 min-h-full"
+        className="w-full lg:p-10 h-screen"
       >
         <Projects />
       </div>
-      <div
-        className="w-full p-10 min-h-full"
+      <section
+        className="w-full mt-96 xl:mt-0 p-2 lg:p-10 h-screen bg-white"
         id="resume"
         ref={(el) => (sectionRefs.current["resume"] = el as any)}
       >
-        <Resume />
-      </div>
+        <div className="w-full p-5">
+          <Typography as="h1" className="text-5xl font-extrabold">
+            Resume
+          </Typography>
+        </div>
+        <PdfReader link="/cv.pdf" />
+      </section>
     </Layout>
   );
 }

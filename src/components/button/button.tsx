@@ -15,7 +15,7 @@ export function Button({
     <button
       {...props}
       className={clsx(
-        "flex flex-row py-2 px-7 rounded-full items-center justify-center gap-2 hover:cursor-pointer",
+        "flex flex-row py-2 px-7 rounded-full items-center justify-center gap-2 hover:cursor-pointer disabled:bg-gray-200",
         "bg-" + fill,
         fill === "white" && "text-primary",
         fill === "primary" && "text-white",

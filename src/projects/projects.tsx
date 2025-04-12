@@ -14,12 +14,12 @@ import { Typography } from "../components/typograhpy/typography";
 export function Projects() {
   return (
     <section className="w-full h-screen">
-      <div className="w-full p-10">
+      <div className="w-full p-5 lg:p-10">
         <Typography as="h1" className="text-5xl font-extrabold">
           Projects
         </Typography>
       </div>
-      <div className="lg:p-10 w-full flex flex-col p-5 lg:grid lg:grid-cols-2 gap-10">
+      <div className="lg:p-10 w-full flex flex-col p-5 lg:grid lg:grid-cols-2 gap-10 overflow-auto">
         <ProjectCard
           title="Sync me"
           badge={<SuccessBadge />}
@@ -45,7 +45,7 @@ export function Projects() {
           description="Simple to use web app to help you manage workhours."
         />
       </div>
-      <div className="flex w-full p-5 lg:p-10 justify-center items-center flex-col gap-4">
+      <div className="hidden lg:flex w-full p-5 lg:p-10 justify-center items-center flex-col gap-4">
         <Typography as="h1" className="lg:text-4xl text-center text-extrabold">
           Want to see your project here?
         </Typography>
