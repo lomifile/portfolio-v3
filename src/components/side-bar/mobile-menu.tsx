@@ -17,7 +17,7 @@ export const MobileMenu = ({ setOpen }: MobileMenuProps) => {
     { id: "home", title: "Home" },
     { id: "about", title: "About me" },
     { id: "projects", title: "Projects" },
-    // { id: "resume", title: "Resume" },
+    { id: "resume", title: "Resume" },
   ];
 
   const { activeSection, scrollToSection } = useScroll();

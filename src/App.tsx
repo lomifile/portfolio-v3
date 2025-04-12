@@ -5,6 +5,7 @@ import { Typography } from "./components/typograhpy/typography";
 import { Header } from "./header/header";
 import { AboutUs } from "./about-us/about-us";
 import { Projects } from "./projects/projects";
+import { Resume } from "./resume/resume";
 
 export function App() {
   let { sectionRefs } = useScroll();
@@ -42,6 +43,13 @@ export function App() {
         className="w-full p-10 min-h-full"
       >
         <Projects />
+      </div>
+      <div
+        className="w-full p-10 min-h-full"
+        id="resume"
+        ref={(el) => (sectionRefs.current["resume"] = el as any)}
+      >
+        <Resume />
       </div>
     </Layout>
   );
