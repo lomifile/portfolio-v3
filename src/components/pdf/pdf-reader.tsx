@@ -5,7 +5,7 @@ import type {
 } from "pdfjs-dist/types/src/display/api";
 import { useRef, useState, useCallback, useEffect } from "react";
 import { Button } from "../button/button";
-import { ChevronLeftIcon, ChevronRightIcon, Download } from "lucide-react";
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 
 export interface PdfReaderProps {
   link: string;

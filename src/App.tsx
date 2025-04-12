@@ -8,7 +8,7 @@ import { Projects } from "./projects/projects";
 import { PdfReader } from "./components/pdf/pdf-reader";
 
 export function App() {
-  let { sectionRefs } = useScroll();
+  let { sectionRefs, scrollToSection } = useScroll();
 
   return (
     <Layout>
@@ -31,7 +31,21 @@ export function App() {
             I have bachelors degree in telematics and working as software
             engineer for 3 years. Below you can find quick overview of
             technologies I use to create my projects. Want to know more about my
-            experience and expertise? Check out my portfolio and resume.
+            experience and expertise? Check out my{" "}
+            <span
+              className="underline text-primary hover:cursor-pointer"
+              onClick={() => scrollToSection("projects")}
+            >
+              portfolio
+            </span>{" "}
+            and{" "}
+            <span
+              className="underline text-primary hover:cursor-pointer"
+              onClick={() => scrollToSection("resume")}
+            >
+              resume
+            </span>
+            .
           </Typography>
         </div>
         <CardDisplay />

@@ -3,8 +3,10 @@ import { useState } from "react";
 import { HandEmoji } from "../components/icons/hand-emoji";
 import { Typography } from "../components/typograhpy/typography";
 import { MobileMenu } from "../components/side-bar/mobile-menu";
+import { useScroll } from "../components/providers/scroll-provider";
 
 export function Header() {
+  const { scrollToSection } = useScroll();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -73,8 +75,21 @@ export function Header() {
           className="text-lg xl:text-2xl font-medium max-w-3xl text-white lg:text-lg lg:text-dark-bg"
         >
           I am software developer, focusing on building scalable web apps. Want
-          to talk how I can help you take your project to the moon? Check out my
-          portfolio and resume.
+          to talk how I can help you take your project to the moon? Check out my{" "}
+          <span
+            className="underline text-primary hover:cursor-pointer"
+            onClick={() => scrollToSection("projects")}
+          >
+            portfolio
+          </span>{" "}
+          and{" "}
+          <span
+            className="underline text-primary hover:cursor-pointer"
+            onClick={() => scrollToSection("resume")}
+          >
+            resume
+          </span>
+          .
         </Typography>
       </div>
       <div className="hidden lg:flex  justify-center w-full">
