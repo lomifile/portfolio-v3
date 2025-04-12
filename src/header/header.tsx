@@ -77,14 +77,14 @@ export function Header() {
           I am software developer, focusing on building scalable web apps. Want
           to talk how I can help you take your project to the moon? Check out my{" "}
           <span
-            className="underline text-primary hover:cursor-pointer"
+            className="underline text-white lg:text-primary hover:cursor-pointer"
             onClick={() => scrollToSection("projects")}
           >
             portfolio
           </span>{" "}
           and{" "}
           <span
-            className="underline text-primary hover:cursor-pointer"
+            className="underline text-white lg:text-primary hover:cursor-pointer"
             onClick={() => scrollToSection("resume")}
           >
             resume
