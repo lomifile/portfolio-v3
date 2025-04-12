@@ -6,6 +6,7 @@ import { HireMeIcon } from "../icons/hire-me-icon";
 import { LinkedinIcon } from "../icons/linkedin-icon";
 import { useScroll } from "../providers/scroll-provider";
 import { Dispatch, SetStateAction } from "react";
+import { sections } from "./side-menu-items.tsx";
 
 export interface MobileMenuProps {
   isOpen: boolean;
@@ -13,13 +14,6 @@ export interface MobileMenuProps {
 }
 
 export const MobileMenu = ({ setOpen }: MobileMenuProps) => {
-  const sections = [
-    { id: "home", title: "Home" },
-    { id: "about", title: "About me" },
-    { id: "projects", title: "Projects" },
-    { id: "resume", title: "Resume" },
-  ];
-
   const { activeSection, scrollToSection } = useScroll();
 
   return (
