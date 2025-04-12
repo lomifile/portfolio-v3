@@ -29,7 +29,7 @@ export function AboutUs() {
         </h1>
         <div className="flex lg:flex justify-center w-full p-10">
           <img
-            className="rounded-3xl lg:rounded-[100px] w-full lg:w-full h-full lg:h-[50%]"
+            className="rounded-3xl lg:rounded-[100px] w-full lg:w-[50%] h-full lg:h-[50%]"
             src="/images/image-1.jpg"
             alt="filip-ivanusec"
           />
@@ -38,7 +38,7 @@ export function AboutUs() {
       <section className="bg-white text-primary flex flex-col gap-0 border-2 border-primary lg:grid lg:grid-cols-2 place-content-center items-center h-screen sticky top-0 overflow-hidden w-full p-10">
         <div className="flex justify-center w-full p-10">
           <img
-            className="rounded-3xl lg:rounded-[100px] w-full lg:w-full h-full lg:h-[50%]"
+            className="rounded-3xl lg:rounded-[100px] w-full lg:w-[50%] h-full lg:h-[50%]"
             src="/images/image-2.jpg"
             alt="filip-ivanusec"
           />
@@ -59,7 +59,7 @@ export function AboutUs() {
         </h1>
         <div className="flex justify-center w-full p-10">
           <img
-            className="rounded-3xl lg:rounded-[100px] w-full lg:w-full h-full lg:h-[50%]"
+            className="rounded-3xl lg:rounded-[100px] w-full lg:w-[50%] h-full lg:h-[50%]"
             src="/images/image-3.jpg"
             alt="filip-ivanusec"
           />
