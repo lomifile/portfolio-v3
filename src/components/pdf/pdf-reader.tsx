@@ -13,15 +13,15 @@ export interface PdfReaderProps {
 
 export function PdfReader({ link }: PdfReaderProps) {
   PDFJS.GlobalWorkerOptions.workerSrc =
-    "https://unpkg.com/pdfjs-dist@latest/build/pdf.worker.min.mjs";
+    "https://unpkg.com/pdfjs-dist@5.1.91/build/pdf.worker.min.mjs";
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [pdfDoc, setPdfDoc] = useState<PDFDocumentProxy>();
   const [currentPage, setCurrentPage] = useState(1);
-  let renderTask: PDFJS.RenderTask;
 
   const renderPage = useCallback(
     (pageNum: number, pdf = pdfDoc) => {
+      let renderTask: PDFJS.RenderTask;
       const canvas = canvasRef.current;
       if (!canvas || !pdf) return;
       canvas.height = 0;
@@ -43,7 +43,9 @@ export function PdfReader({ link }: PdfReaderProps) {
             }
             renderTask = page.render(renderContext);
             return renderTask.promise;
-          } catch (error) {}
+          } catch (err) {
+            console.error("Cought error", err);
+          }
         })
         .catch((error) => console.log(error));
     },
