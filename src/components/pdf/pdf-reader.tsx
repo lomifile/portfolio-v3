@@ -13,7 +13,7 @@ export interface PdfReaderProps {
 
 export function PdfReader({ link }: PdfReaderProps) {
   PDFJS.GlobalWorkerOptions.workerSrc =
-    "https://unpkg.com/pdfjs-dist@5.1.91/build/pdf.worker.min.mjs";
+    "https://unpkg.com/pdfjs-dist@latest/build/pdf.worker.min.mjs";
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [pdfDoc, setPdfDoc] = useState<PDFDocumentProxy>();
@@ -34,6 +34,7 @@ export function PdfReader({ link }: PdfReaderProps) {
           canvas.height = viewport.height;
           canvas.width = viewport.width;
           const renderContext: RenderParameters = {
+            canvas,
             canvasContext: canvas.getContext("2d")!,
             viewport: viewport,
           };
