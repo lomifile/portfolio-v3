@@ -1,11 +1,8 @@
-import {
-  DangerBadge,
-  InfoBadge,
-  SuccessBadge,
-} from "../components/badge/badge.tsx";
+import { SuccessBadge } from "../components/badge/badge.tsx";
 import { Button } from "../components/button/button.tsx";
 import { ProjectCard } from "../components/card/project-card";
-import { GoIcon } from "../components/icons/go-icon";
+import { CIcon } from "../components/icons/c-icon.tsx";
+import { CppIcon } from "../components/icons/cpp-icon.tsx";
 import { HireMeIcon } from "../components/icons/hire-me-icon.tsx";
 import { PythonIcon } from "../components/icons/python-icon.tsx";
 import { TsIcon } from "../components/icons/ts-icon.tsx";
@@ -21,14 +18,32 @@ export function Projects() {
       </div>
       <div className="lg:p-10 w-full flex flex-col p-5 lg:grid lg:grid-cols-2 gap-10 overflow-auto">
         <ProjectCard
-          title="Sync me"
+          title="Task CLI"
           badge={<SuccessBadge />}
-          icon={<GoIcon className="w-full h-full" />}
-          description="Small utility I developed to transfer my notes onto my NAS server using SFTP."
+          icon={<CppIcon className="w-full h-full" />}
+          description="Simple small tasks utility built using CPP and custom JSON parser"
+        />
+        <ProjectCard
+          title="Game engine"
+          badge={<SuccessBadge />}
+          icon={<CppIcon className="w-full h-full" />}
+          description="A simple game engine written in C++ using DX11"
+        />
+        <ProjectCard
+          title="Editor"
+          badge={<SuccessBadge />}
+          icon={<CppIcon className="w-full h-full" />}
+          description="A simple CLI editor written in C++"
+        />
+        <ProjectCard
+          title="JSON parser"
+          badge={<SuccessBadge />}
+          icon={<CppIcon className="w-full h-full" />}
+          description="Simple CLI JSON parser"
         />
         <ProjectCard
           title="Kindie"
-          badge={<DangerBadge />}
+          badge={<SuccessBadge />}
           icon={<TsIcon className="w-full h-full" />}
           description="Simple to use web app to improve handling professional documentation."
         />
@@ -39,10 +54,10 @@ export function Projects() {
           description="My bacc. final assignment."
         />
         <ProjectCard
-          title="Dandileon"
-          badge={<InfoBadge />}
-          icon={<TsIcon className="w-full h-full" />}
-          description="Simple to use web app to help you manage workhours."
+          title="Password manager"
+          badge={<SuccessBadge />}
+          icon={<CIcon className="w-full h-full" />}
+          description="Small and simple CLI password manager built using libsodium and small sqlite3 clone"
         />
       </div>
       <div className="hidden lg:flex w-full p-5 lg:p-10 justify-center items-center flex-col gap-4">
