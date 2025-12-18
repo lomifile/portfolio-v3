@@ -2,7 +2,7 @@ import { useScroll } from "../components/providers/scroll-provider";
 import { Typography } from "../components/typograhpy/typography";
 
 export function AboutUs() {
-  let { sectionRefs } = useScroll();
+  const { sectionRefs } = useScroll();
   return (
     <div className="w-full">
       <section
@@ -22,8 +22,8 @@ export function AboutUs() {
       </section>
       <section className="bg-primary text-white flex flex-col gap-0 lg:grid lg:grid-cols-2 place-content-center items-center h-screen sticky top-0 overflow-hidden w-full p-10">
         <h1 className="xl:text-4xl 2xl:text-6xl md:text-4xl text-xl lg:px-8 font-semibold text-center tracking-tight leading-[120%] w-full">
-          👋 Hey, I'm Filip—a 27-year-old software developer with a deep passion
-          for building and creating. With a bachelor's degree in Telematics, I
+          👋 Hey, I'm Filip, a software developer with a deep passion for
+          building and creating. With a bachelor's degree in Telematics, I
           thrive on solving complex problems and crafting software that’s both
           efficient and scalable.
         </h1>
