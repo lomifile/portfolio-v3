@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { EmailIcon } from "../icons/email-icon";
 import { GithubIcon } from "../icons/github-icon";
 import { LinkedinIcon } from "../icons/linkedin-icon";
 import { Button } from "../button/button";
@@ -25,14 +24,21 @@ export function SideBar() {
           I am software developer based in croatia
         </span>
         <div className="flex flex-row p-2 gap-5 w-full justify-center items-center">
-          <button className="flex text-pretty text-primary justify-center items-center bg-white rounded-full w-9 h-9 hover:cursor-pointer">
+          <button
+            onClick={() =>
+              (window.location.href = "https://linkedin.com/in/filip-ivanusec")
+            }
+            className="flex text-pretty text-primary justify-center items-center bg-white rounded-full w-9 h-9 hover:cursor-pointer"
+          >
             <LinkedinIcon className="w-4 h-4" />
           </button>
-          <button className="flex text-pretty text-primary justify-center items-center bg-white rounded-full w-9 h-9 hover:cursor-pointer">
+          <button
+            className="flex text-pretty text-primary justify-center items-center bg-white rounded-full w-9 h-9 hover:cursor-pointer"
+            onClick={() =>
+              (window.location.href = "https://github.com/lomifile")
+            }
+          >
             <GithubIcon className="w-4 h-4" />
-          </button>
-          <button className="flex text-pretty text-primary justify-center items-center bg-white rounded-full w-9 h-9 hover:cursor-pointer">
-            <EmailIcon className="w-4 h-4" />
           </button>
         </div>
         <div className="flex flex-col max-w-52 justify-center w-full relative">
